@@ -34,12 +34,12 @@ export default function dashboard() {
 
                 </div>
 
-                <div className="boxes2">
+                {/* <div className="boxes2">
                     <div className="box3">
                         <p className='text-center'>Pomodoro Timer</p>
                         <Pomodoro></Pomodoro>
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </>
