@@ -1,0 +1,40 @@
+.container {
+    max-width: 400px; /* Set max width for the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .tasks {
+    max-height: 150px; /* Set maximum height for the task list */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #ccc; /* Add border for better visibility */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the tasks container */
+    background-color: #f9f9f9; /* Background color for the task list */
+  }
+  
+  .task-item {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between task text and remove button */
+    align-items: center; /* Center items vertically */
+    padding: 5px 0; /* Padding for each task item */
+  }
+  
+  .remove-btn {
+    background: none;
+    border: none;
+    color: red; 
+    cursor: pointer;
+    width: 10px;
+    font-size: 10px;
+    font-family: 'FontAwesome';
+  }
+
+  .remove-btn:hover {
+    text-decoration: underline; 
+  }
+  
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
