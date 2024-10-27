@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+.box-container{
+    background-color: black;
+    color: aliceblue;
+    margin-inline-start: auto;
+    position: relative;
+}
+#img {
+    height: 550px;
+    width: 100%; /* Set width to 100% to fill the container */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0; 
+}
+.hover {
+    position: relative;
+    height: 500px;/* Set the height equal to the image height */
+}
+.hover1{
+    position: absolute;
+    top: 350px; /* Adjust as needed */
+     left:2%;  /*Adjust as needed */ 
+    /* transform: translate(-50%, -50%); Center the text */
+    font-size: 45px;
+    line-height: 1.3;
+    font-family: cursive;
+    color: white; /* Set text color */
+    z-index: 1; /* Ensure text is above the image */
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .hover1,
+    .hover2,
+    .hover3 {
+        font-size: 25px;
+    }
+}
+.card-container{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2); 
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: 60%;    
+}
+.card-body{
+    padding: 0px;
+}
+.card-body .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 9px;
+    margin-top: 16px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer {
+    background-color: #333;
+    text-decoration-color: #f0f0f0;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px; /* Adjust padding */
+}
+
+.footertext {
+    color: aliceblue;
+}
+@media screen and (max-width: 1234px) {
+    .box-container img{
+        display: none;
+    }
+  }

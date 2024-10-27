@@ -1,0 +1,125 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: aliceblue;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.box-container {
+    position: relative;
+    color: aliceblue;
+    margin-inline-start: auto;
+    background-color: black;
+    position: relative;
+   
+    /* Remove background color from box-container */
+}
+
+#img {
+    height: 550px;
+    width: 100%; /* Set width to 100% to fill the container */
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0; 
+}
+
+.hover {
+    position: relative;
+    height: 500px; /* Set the height equal to the image height */
+}
+
+.hover1{
+    position: absolute;
+    top: 300px; /* Adjust as needed */
+     left:2%;  /*Adjust as needed */ 
+    /* transform: translate(-50%, -50%); Center the text */
+    font-size: 45px;
+    line-height: 1.3;
+    font-family: cursive;
+    color: white; /* Set text color */
+    z-index: 1; /* Ensure text is above the image */
+}
+.hover2{
+    position: absolute;
+    top: 350px; /* Adjust as needed */
+    left:2%;  /*Adjust as needed */ 
+    /* transform: translate(-50%, -50%); Center the text */
+    font-size: 45px;
+    line-height: 1.3;
+    font-family: cursive;
+    color: white; /* Set text color */
+    z-index: 1; /* Ensure text is above the image */
+}
+.hover3 {
+    position: absolute;
+    top: 400px; /* Adjust as needed */
+    left:2%;  /*Adjust as needed */ 
+    /* transform: translate(-50%, -50%); Center the text */
+    font-size: 45px;
+    line-height: 1.3;
+    font-family: cursive;
+    color: white; /* Set text color */
+    z-index: 1; /* Ensure text is above the image */
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .hover1,
+    .hover2,
+    .hover3 {
+        font-size: 25px;
+    }
+}
+
+
+.boxpara {
+    padding: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3%;
+    line-height: 1.5;
+    color: black;
+}
+
+li, a, ol, p {
+    font-size: 20px;
+    color: black;
+}
+h4{
+    font-size: 21px;
+}
+h2{
+    font-size: 23px;
+}
+li {
+    position: relative;
+    left: 3%;
+}
+
+ol {
+    position: relative;
+    left: 4%;
+}
+
+
+pre {
+    font-size: 20px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid black 2px;
+    background-color: beige;
+    display: block;
+    box-sizing: border-box; /* Include padding and border in total width and height */
+    padding: 10px; /* Adjust padding as needed */
+    margin: 0; 
+    overflow:auto; /* Add scrollbars if content exceeds box dimensions */
+}
+@media screen and (max-width: 1100px) {
+    .box-container img{
+        display: none;
+
+    }
+  }

@@ -1,5 +1,5 @@
-import React from 'react'
-import Attendance from './attendance'
+import React from 'react';
+import Attendance from './attendance';
 
 export default function sidebar() {
   return (
